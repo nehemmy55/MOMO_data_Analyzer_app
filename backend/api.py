@@ -66,7 +66,7 @@ def get_transactions():
 
 @app.route('/api/summary', methods=['GET'])
 def get_summary():
-    """Get summary statistics, applying the same filters as transactions."""
+    """Get summary statistics, apply the same filters as transactions."""
     try:
         where_clause, params = _build_filter_clause(request.args)
         conn = get_db_connection()
