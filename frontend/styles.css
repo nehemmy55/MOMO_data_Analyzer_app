@@ -1,0 +1,56 @@
+ body {
+     background-color:rgb(148, 148, 177);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .dashboard-header {
+     background-color: #ffcc00;
+     color: #000;
+     padding: 20px 0;
+     margin-bottom: 30px;
+  }
+   .card {
+     border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+  }
+ .card:hover {
+     transform: translateY(-5px);
+ }
+ .chart-container {
+     position: relative;
+     height: 300px;
+     margin-bottom: 20px;
+ }
+  .transaction-table {
+    font-size: 14px;
+ }
+ .filter-section {
+     background-color: white;
+     padding: 15px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+ }
+ .loading-spinner {
+     display: none;
+     text-align: center;
+     padding: 20px;
+ }
+ #error-message {
+     position: fixed;
+     top: 20px;
+     right: 20px;
+     z-index: 1000;
+ }
+ .loading-spinner {
+     display: none;
+     text-align: center;
+     padding: 20px;
+ }
+        
+.loading-spinner p {
+     margin-top: 10px;
+     color: #666;
+ }
+       
