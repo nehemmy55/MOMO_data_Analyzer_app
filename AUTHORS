@@ -1,0 +1,23 @@
+# Project Contributors
+
+## Frontend Team
+- **TETA JOELLA**  
+  `HTML/CSS Architecture`  
+  Designed all UI components and responsive styles
+
+- **FRIDA KAYIRANGA**  
+  `JavaScript Logic (app.js)`  
+  Implemented dashboard interactivity and API integration
+
+## Backend Team
+- **NEHEMIE ISHIMWE**  
+  `Data Processing Engine`  
+  Built the SMS parsing and transaction categorization system
+
+- **CONSTANTINE AKAS**  
+  `API Development (api.py)`  
+  Created the RESTful endpoints and database operations
+
+## How to Contribute
+1. make all member as contribute
+2. add the code to the main branch
