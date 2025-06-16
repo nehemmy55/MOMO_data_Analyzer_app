@@ -19,6 +19,18 @@ the full-stack application for analyzing and visualizing MTN Mobile Money transa
 - SQLite3
 - Modern web browser
 
+## App structure
+>backend/
+    api.py               # Flask server
+    data_processing.py   # SMS processor
+    transactions.db      # Database
+>frontend/
+   index.html
+   styles.css                # Dashboard
+   app.js          # Frontend logic
+> modified_sms_v2.xml
+
+
 ## Installation
 
 ### Backend Setup
@@ -44,3 +56,5 @@ the full-stack application for analyzing and visualizing MTN Mobile Money transa
 6.  Open the Dashboard by runing index.html in your browser
     The server will start at http://localhost:5000
 
+## demo Video : Description on run this application
+https://youtu.be/MDk1TR2V328
